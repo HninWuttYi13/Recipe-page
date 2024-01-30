@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato:ital,wght@1,300&family=Lobster&family=Lora:ital,wght@1,400;1,600&family=Montserrat:ital,wght@1,100&family=Playfair+Display:ital,wght@1,400;1,500;1,700&family=Poppins:ital,wght@0,300;0,400;1,400&family=Roboto+Condensed:ital,wght@1,300&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  margin: 6px;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.main_img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.title {
+  font-family: "Young Serif", serif;
+}
+.intro {
+  font-family: "Outfit", sans-serif;
+  margin-top: 15px;
+}
+.prepartion {
+  background-color: hsl(330, 100%, 98%);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.prepartion h3 {
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+}
+.prepartion .list1 {
+  color: hsl(332, 51%, 32%);
+  margin-left: 3%;
+}
+.prepartion li {
+  color: hsl(24, 5%, 18%);
+  font-family: "Outfit", sans-serif;
+}
+.prepartion li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.ingredient {
+  margin-top: 30px;
+}
+.ingredient h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 20px;
+}
+.ingredient ul {
+  margin-left: 2%;
+  font-family: "Outfit", sans-serif;
+}
+.ingredient li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.instruction h2 {
+  font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+.instruction ol {
+  font-family: "Outfit", sans-serif;
+  margin-left: 3%;
+   padding-left: 0;
+}
+.instruction li::marker {
+  color: hsl(14, 45%, 36%);
+}
+.instruction li {
+  line-height: 1.7em;
+
+  text-align: left;
+}
+.instruction li b {
+  color: hsl(24, 5%, 18%);
+}
+.instruction p{
+    text-align: left;
+}
+.nutrition h2{
+    font-family: "Young Serif", serif;
+  color: hsl(14, 45%, 36%);
+}
+.nutrition p{
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 30px;
+    color: hsl(24, 5%, 18%);
+
+}
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+}
+.nutrtion_table  th,td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-left: 15%;
+    color: hsl(24, 5%, 18%);
+}
+.nutrtion_table td,th{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    color: hsl(14, 45%, 36%);
+    width:70%;
+
+}
